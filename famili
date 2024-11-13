@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de mi Familia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Familia</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Introducción</h2>
+            <p>Bienvenidos a la presentación de mi familia. Aquí conocerán a cada uno de sus miembros.</p>
+        </section>
+        <section id="members">
+            <h2>Miembros de la Familia</h2>
+            <div class="member">
+                <h3>Tito</h3>
+                <p>es alguien "trabajador y protector". 
+                Gracias a su ejemplo, he aprendido a valorar el esfuerzo y la responsabilidad. 
+                Además, tiene un gran sentido del humor, lo que hace que siempre 
+                tengamos momentos de risa y complicidad.</p>
+            </div>
+            <div class="member">
+                <h3>Yola</h3>
+                <p>es una persona increíblemente "cariñosa y dedicada". 
+                Siempre ha estado allí para guiarnos y apoyarnos en cada paso, y su fortaleza 
+                nos ha enseñado la importancia de la perseverancia y el amor incondicional</p>
+            </div>
+           
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Presentación de mi Familia</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
