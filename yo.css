@@ -1,0 +1,74 @@
+<! DOCTYPE html> 
+<html lang="es">
+<cabeza> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Mi</title>
+ <link rel="hoja de estilo" href="styles.css"> 
+</cabeza> 
+<cuerpo> 
+ <encabezado> 
+        <h1>¡Hola! Soy</h1> 
+        <h1>DANY TITO CHAMBI CADENA</h1>
+        <p>Bienvenido a mi página de presentación</p>
+ </encabezado> 
+ <sección> 
+        <h2>Sobre Mí</h2>
+        <p>Dany Tito Chambi Cadena es una persona INFORMATICO INDUSTRIAL, que se destaca en COMUNICACIÓN SOCIAL. Con una fuerte inclinación hacia "el aprendizaje continuo" o "el trabajo en equipo"</p>
+ </sección> 
+ <sección> 
+        <h2>Mis Habilidades</h2>
+        <ul>
+            <li>Habilidades Técnicas</li>
+            <li>Habilidades Interpersonales</li>
+            <li>Habilidades de Gestión y Organización</li>
+            <li>Habilidades Creativas</li>
+        </ul>
+ </sección> 
+ <sección> 
+        <h2>Contacto</h2>
+ <p>Correo electrónico: chambicadena@gmail.com</p> 
+ </sección> 
+</cuerpo> 
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+ </sección> 
+</cuerpo> 
+</html>
