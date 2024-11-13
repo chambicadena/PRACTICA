@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Amigos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Presentación de Amigos</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Kimberly</h2>
+            <p>es una persona increíblemente "optimista y extrovertida". Siempre está dispuesto a levantar el ánimo de todos con su buen humor y energía. Además, tiene un talento especial para }"tocar la guitarra" o "organizar salidas", lo que hace que los momentos con él sean siempre memorables.</p>
+        </section>
+        <section>
+            <h2>Noemi</h2>
+            <p>es una amiga muy "cariñosa y comprensiva". Es quien siempre está allí para escuchar cuando necesitamos desahogarnos o pedir un consejo. Su empatía y paciencia la convierten en una persona en la que todos confiamos, y su apoyo constante nos motiva a ser mejores.</p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Presentación de Amigos</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
